@@ -10,7 +10,7 @@ try:
   bw = img.convert('L')
   otsu.otsu(bw)
 except IOError:                                                                   
-  print "Unable to open file. Please try another format or check spelling."
+  print ("Unable to open file. Please try another format or check spelling.")
 
 
 
